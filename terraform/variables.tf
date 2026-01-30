@@ -19,5 +19,5 @@ variable "project_name" {
 variable "namespaces" {
   description = "List of namespaces to create"
   type        = list(string)
-  default     = ["dev", "staging", "prod", "monitoring", "cicd", "vault"]
+  default     = ["dev", "staging", "prod", "monitoring", "cicd", "vault", "argocd"]
 }
